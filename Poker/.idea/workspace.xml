@@ -10,9 +10,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hemdWL31r34AhZWOn6eE1KlsF1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,8 +30,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Card.executor": "Run",
+    "Python.Deck.executor": "Run",
+    "Python.GameWindow.executor": "Run",
+    "Python.LoginWindow.executor": "Run",
     "Python.MenuWindow.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.tmp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Dionizy/PycharmProjects/Poker",
@@ -30,12 +45,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dionizy\PycharmProjects\Poker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dionizy\PycharmProjects\Poker\GUI" />
+      <recent name="C:\Users\Dionizy\PycharmProjects\Poker\Logic" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -54,6 +74,17 @@
       <option name="presentableId" value="Default" />
       <updated>1717963004923</updated>
       <workItem from="1717963009367" duration="3243000" />
+      <workItem from="1718806997537" duration="836000" />
+      <workItem from="1718807845196" duration="7000" />
+      <workItem from="1718808256203" duration="3462000" />
+      <workItem from="1718824193271" duration="5033000" />
+      <workItem from="1718870729552" duration="7164000" />
+      <workItem from="1718890986607" duration="7534000" />
+      <workItem from="1718959422152" duration="7976000" />
+      <workItem from="1718971140271" duration="8403000" />
+      <workItem from="1718994933465" duration="12201000" />
+      <workItem from="1719069391775" duration="156000" />
+      <workItem from="1719069555479" duration="1356000" />
     </task>
     <servers />
   </component>
@@ -61,7 +92,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Poker$main.coverage" NAME="main Coverage Results" MODIFIED="1717966246214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Poker$MenuWindow.coverage" NAME="MenuWindow Coverage Results" MODIFIED="1717964958751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/Poker$LoginWindow.coverage" NAME="LoginWindow Coverage Results" MODIFIED="1718900454547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/Poker$main.coverage" NAME="main Coverage Results" MODIFIED="1719073384794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Poker$MenuWindow.coverage" NAME="MenuWindow Coverage Results" MODIFIED="1718808564317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/Poker$Deck.coverage" NAME="Deck Coverage Results" MODIFIED="1718978277506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logic" />
+    <SUITE FILE_PATH="coverage/Poker$Card.coverage" NAME="Card Coverage Results" MODIFIED="1718892610594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logic" />
+    <SUITE FILE_PATH="coverage/Poker$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1718964050281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Poker$GameWindow.coverage" NAME="GameWindow Coverage Results" MODIFIED="1719073389302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
   </component>
 </project>

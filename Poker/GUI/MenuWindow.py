@@ -1,5 +1,4 @@
 import tkinter as tk
-from PIL import Image, ImageTk
 
 class MenuWindow:
 
@@ -7,14 +6,6 @@ class MenuWindow:
         self.root = tk.Tk()
         self.root.title("Menu")
         self.root.geometry("500x400")
-
-        # self.image = Image.open("dance.gif")
-        # self.image.save("tmp.gif", save_all=True)
-        # self.photo = ImageTk.PhotoImage(self.image)
-        #
-        # self.label = tk.Label(self.root, image=self.photo)
-        # self.label.image = self.photo
-        # self.label.pack(fill=tk.BOTH, expand=True)
 
         self.label = tk.Label(self.root, text="We have money to lose 😎", font=("Arial", 18))
         self.label.pack(padx=15, pady=15)
